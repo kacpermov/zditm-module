@@ -86,7 +86,7 @@ function zditm:getLineTrajectories(lineId)
     return json.data
 end
 
-function zditm:getDepatureBoard(stopNumber)
+function zditm:getDepartureBoard(stopNumber)
     local net_config: net.FetchParams = {
         url=apiBase.."departure-boards/"..stopNumber.."?format=json",
         method="GET",
