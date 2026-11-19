@@ -1,8 +1,12 @@
 # Unoffical ZDiTM Module
-##                  for luau
 
 This module uses ZDiTM's free developer api.
 
+You must use the lune luau runtime,
+on macOS run
+```sh
+brew install lune
+```
 # Usage:
 
 ## Initiate
