@@ -21,7 +21,7 @@ zditm_api.UserAgent="Example"
 Documentation: https://www.zditm.szczecin.pl/en/zditm/for-developers/api-stops
 
 ```lua
-local stop=zditm_api:getStop()
+local stop=zditm_api:getStops()
 ```
 
 ## Vehicles
